@@ -32,6 +32,24 @@ body .header {
 body .header .header-container .header-inner-content .header-logo img {
   max-height: 30px;
 }
+body .header .header-container .header-inner-content .header-links {
+  list-style: none;
+}
+body .header .header-container .header-inner-content .header-links li:not(:first-child) {
+  margin-left: 10px;
+}
+body .header .header-container .header-inner-content .header-links li a {
+  color: black;
+  padding: 7px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+body .header .header-container .header-inner-content .header-links li a.border-link {
+  border: 2px solid #379D13;
+}
 body .main-container {
   padding-top: 80px;
 }/*# sourceMappingURL=index.css.map */

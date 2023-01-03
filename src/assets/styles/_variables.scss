@@ -16,6 +16,6 @@ $measurement: (
 };
 
 @function getColor($value){
-    @return map-get($color, $value )
+    @return map-get($colors, $value )
 
 };
