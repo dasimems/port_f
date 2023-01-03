@@ -8,6 +8,12 @@ html{
     font-size: 14px;
 }
 
+.title{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 .flex-container{
     display: flex;
 
@@ -22,5 +28,12 @@ html{
 }
 
 .justify-center{
+    justify-content: center;
+}
+
+.button{
+    padding: 7px 20px;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
 }

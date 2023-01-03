@@ -1,0 +1,75 @@
+@import "./style";
+@import "./variables";
+
+.service{
+
+    .service-container{
+
+        .title{
+            margin-top: 40px;
+        }
+
+        .service-card-container{
+            margin-top: 70px;
+
+
+            .service-card{
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                padding: 20px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                border-bottom: 2px solid getColor("primary");
+                color: black;
+                background: white;
+
+
+
+                .service-card-icon{
+
+                    font-size: 2rem;
+
+                    img{
+                        width: 2rem;
+                    }
+
+                }
+
+                .service-card-title{
+                    font-size: 1.3rem;
+                    margin-top: 10px;
+                }
+
+                .service-card-description{
+                    font-size: 0.9rem;
+                    margin-top: 10px;
+                }
+            }
+
+            .background-card{
+                color: white;
+                background: getColor("primary");
+            }
+
+        }
+
+        .cta-btn-container{
+            margin-top: 60px;
+
+            .cta-btn{
+                background: white;
+                border-radius: 50px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                -o-border-radius: 50px;
+                color: getColor("primary");
+                padding: 15px 30px;
+                font-weight: bold;
+            }
+
+        }
+    }
+}

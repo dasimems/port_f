@@ -1,4 +1,7 @@
 import Logo from "./images/logo.png"
+import {BsUiRadios, BsUiChecks} from "react-icons/bs"
+import { BiCodeAlt} from "react-icons/bi"
+import Boost from "./icons/arcticons_boost.svg"
 
 export const routeName = {
     home: "",
@@ -51,5 +54,35 @@ export const headerLinks = [
         link: routeName.contact,
         linkName: "Contact",
         bordered: true
+    }
+]
+
+export const services = [
+    {
+        service: "Branding",
+        icon: <img src={Boost} alt="" />,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        background: false
+    },
+
+     {
+        service: "User Experience",
+        icon: <BsUiRadios />,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        background: true
+    },
+
+     {
+        service: "User Interface",
+        icon: <BsUiChecks />,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        background: false
+    },
+
+     {
+        service: "Development",
+        icon: <BiCodeAlt />,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        background: false
     }
 ]
