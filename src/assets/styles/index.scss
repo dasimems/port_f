@@ -1,0 +1,31 @@
+@import "./style";
+@import "./variables";
+
+body{
+    // width: 100%;
+
+    .header{
+        width: 100%;
+        height: getMeasurement("headerHeight");
+        position: fixed;
+
+        .header-container{
+
+            .header-inner-content{
+
+                .header-logo{
+                    
+                    img{
+                        max-height: 30px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .main-container{
+        padding-top: getMeasurement("headerHeight");
+
+    }
+}

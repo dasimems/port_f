@@ -1,0 +1,21 @@
+$colors: (
+    "background": #E4EEE1,
+    "primary": #379D13,
+    "primaryLight": #308A10B2,
+    "textColor": black
+);
+
+$measurement: (
+    "headerHeight": 80px,
+
+);
+
+@function getMeasurement($value){
+    @return map-get($measurement, $value )
+
+};
+
+@function getColor($value){
+    @return map-get($color, $value )
+
+};
