@@ -6,8 +6,8 @@ const ServiceCard = ({ data, ...props }) => {
   return (
     <Col
       {...props}
-      span={5}
-      lg={{ span: 5 }}
+      span={7}
+      lg={{ span: 7 }}
       md={{ span: 7 }}
       sm={{ span: 11 }}
       xs={{ span: 24 }}

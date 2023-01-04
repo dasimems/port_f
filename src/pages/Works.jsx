@@ -1,10 +1,13 @@
 import React from 'react'
+import { About } from '../components'
 
 const Works = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    
+        <About />
+
+    </>
   )
 }
 

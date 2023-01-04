@@ -1,9 +1,27 @@
 import Footer from "./Footer"
 import Header from "./Header"
-import ServiceCard from "./services/ServiceCard"
+import StrategyCard from "./StrategyCard"
+import ServiceCard from "./ServiceCard"
+import Service from "./Service"
+import Strategy from "./Strategy"
+import AboutCard from "./AboutCard"
+import About from "./About"
+import Stats from "./Stats"
+import Team from "./Team"
+import TeamCard from "./TeamCard"
+import Banner from "./home/Banner"
 
 export {
     Header,
     Footer,
-    ServiceCard
+    StrategyCard,
+    ServiceCard,
+    Service,
+    Strategy,
+    About,
+    AboutCard,
+    Stats,
+    Team,
+    TeamCard,
+    Banner
 }

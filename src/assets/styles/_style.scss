@@ -14,9 +14,22 @@ html{
     font-weight: bold;
 }
 
+.subtitle{
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+}
+
 .flex-container{
     display: flex;
 
+}
+
+.column{
+    flex-direction: column;
+}
+
+.align-end{
+    align-items: flex-end;
 }
 
 .align-center{

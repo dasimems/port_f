@@ -1,2 +1,320 @@
 @import "./style";
 @import "./variables";
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    max-height: 765px;
+    min-height: 675px;
+    background: white;
+}
+
+.service-one{
+
+    .service-container{
+
+        .title{
+            margin-top: 40px;
+        }
+
+        .service-card-container{
+            margin-top: 70px;
+
+
+            .service-card{
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                padding: 20px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                border-bottom: 2px solid getColor("primary");
+                color: black;
+                background: white;
+                margin-bottom: 20px;
+
+
+
+                .service-card-icon{
+
+                    font-size: 2rem;
+                    color: getColor("primary");
+
+                    img{
+                        width: 2rem;
+                    }
+
+                }
+
+                .service-card-title{
+                    font-size: 1.3rem;
+                    margin-top: 10px;
+                }
+
+                .service-card-description{
+                    font-size: 0.9rem;
+                    margin-top: 10px;
+                }
+            }
+
+            .background-card{
+                color: white;
+                background: getColor("primary");
+
+                .service-card-icon{
+
+                    color: white;
+
+                }
+            }
+
+        }
+
+        .cta-btn-container{
+            margin-top: 60px;
+
+            .cta-btn{
+                background: white;
+                border-radius: 50px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                -o-border-radius: 50px;
+                color: getColor("primary");
+                padding: 15px 30px;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
+
+.service{
+    margin-top: 60px;
+    
+    .service-container{
+
+        .title{
+            margin-top: 40px;
+        }
+
+        .service-card-container{
+            margin-top: 70px;
+
+
+            .service-card{
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+                padding: 20px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                border-bottom: 2px solid getColor("primary");
+                color: black;
+                background: white;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+
+                .service-card-icon{
+
+                    font-size: 2rem;
+                    color: getColor("primary");
+
+                    img{
+                        width: 2rem;
+                    }
+
+                }
+
+                .service-card-title{
+                    font-size: 1.3rem;
+                    margin-top: 10px;
+                }
+
+                .service-card-description{
+                    font-size: 0.9rem;
+                    margin-top: 10px;
+                }
+            }
+
+            .background-card{
+                color: white;
+                background: getColor("primary");
+
+                .service-card-icon{
+
+                    color: white;
+
+                }
+            }
+
+        }
+
+        .cta-btn-container{
+            margin-top: 60px;
+
+            .cta-btn{
+                background: white;
+                border-radius: 50px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                -o-border-radius: 50px;
+                color: getColor("primary");
+                padding: 15px 30px;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
+
+.about{
+    margin-top: 60px;
+    padding: 60px 0px;
+    // background: white;
+
+    .about-container{
+
+        .about-content{
+
+            .about-card-container{
+
+                .about-card{
+                    width: 100%;
+                    margin-bottom: 40px;
+                    position: relative;
+
+                    .about-card-overlay{
+                        background: rgba(0, 0, 0, .5);
+                        position: absolute;
+                        width: calc(100%/2);
+                        height: calc(100% - 20px);
+                        z-index: -1;
+                        bottom: 0px;
+                        left: 0px;
+                    }
+
+                    .serial-number{
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        background: getColor("primary");
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        -moz-border-radius: 5px;
+                        -ms-border-radius: 5px;
+                        -o-border-radius: 5px;
+                        margin-top: 15px;
+                        color: white;
+
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    
+                    .about-card-content{
+                        background: white;
+                        width: calc(100% - 30px);
+                        padding: 30px;
+
+                        h2{
+                            font-size: 1.3rem;
+                        }
+
+                        p{
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+
+            .about-image{
+                position: relative;
+
+                img{
+                    width: 70%;
+
+                    &.image-two{
+                        position: absolute;
+                        right: 0px;
+                        top: 10%;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.stats{
+    padding: 60px 0px;
+
+    .stats-container{
+        background: url("../images//stats.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 50px 0px;
+
+        .stats-inner-content{
+
+            .stats-card{
+                color: white;
+
+                h3{
+                    font-size: 1.9rem;
+
+                }
+
+                p{
+                    font-size: 1.3rem;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+.team{
+    
+    .team-container{
+
+        .subtitle{
+            margin-top: 10px;
+
+        }
+
+        .team-card-container{
+            margin-top: 40px;
+
+            .team-card{
+                background: white;
+                padding: 20px;
+                border-bottom: 2px solid getColor("primary");
+
+                .team-card-image{
+                    width: 100px;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                .team-card-details{
+                    margin-left: 20px;
+                    flex: 1;
+
+                }
+            }
+        }
+    }
+}

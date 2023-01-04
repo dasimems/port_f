@@ -9,6 +9,8 @@ body{
         width: 100%;
         height: getMeasurement("headerHeight");
         position: fixed;
+        background: white;
+        z-index: 999;
 
         .header-container{
 

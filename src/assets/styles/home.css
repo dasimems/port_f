@@ -14,8 +14,21 @@ html {
   font-weight: bold;
 }
 
+.subtitle {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .flex-container {
   display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-end {
+  align-items: flex-end;
 }
 
 .align-center {
@@ -35,4 +48,232 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  max-height: 765px;
+  min-height: 675px;
+  background: white;
+}
+
+.service-one .service-container .title {
+  margin-top: 40px;
+}
+.service-one .service-container .service-card-container {
+  margin-top: 70px;
+}
+.service-one .service-container .service-card-container .service-card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-bottom: 2px solid #379D13;
+  color: black;
+  background: white;
+  margin-bottom: 20px;
+}
+.service-one .service-container .service-card-container .service-card .service-card-icon {
+  font-size: 2rem;
+  color: #379D13;
+}
+.service-one .service-container .service-card-container .service-card .service-card-icon img {
+  width: 2rem;
+}
+.service-one .service-container .service-card-container .service-card .service-card-title {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.service-one .service-container .service-card-container .service-card .service-card-description {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+.service-one .service-container .service-card-container .background-card {
+  color: white;
+  background: #379D13;
+}
+.service-one .service-container .service-card-container .background-card .service-card-icon {
+  color: white;
+}
+.service-one .service-container .cta-btn-container {
+  margin-top: 60px;
+}
+.service-one .service-container .cta-btn-container .cta-btn {
+  background: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: #379D13;
+  padding: 15px 30px;
+  font-weight: bold;
+}
+
+.service {
+  margin-top: 60px;
+}
+.service .service-container .title {
+  margin-top: 40px;
+}
+.service .service-container .service-card-container {
+  margin-top: 70px;
+}
+.service .service-container .service-card-container .service-card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-bottom: 2px solid #379D13;
+  color: black;
+  background: white;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service .service-container .service-card-container .service-card .service-card-icon {
+  font-size: 2rem;
+  color: #379D13;
+}
+.service .service-container .service-card-container .service-card .service-card-icon img {
+  width: 2rem;
+}
+.service .service-container .service-card-container .service-card .service-card-title {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.service .service-container .service-card-container .service-card .service-card-description {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+.service .service-container .service-card-container .background-card {
+  color: white;
+  background: #379D13;
+}
+.service .service-container .service-card-container .background-card .service-card-icon {
+  color: white;
+}
+.service .service-container .cta-btn-container {
+  margin-top: 60px;
+}
+.service .service-container .cta-btn-container .cta-btn {
+  background: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: #379D13;
+  padding: 15px 30px;
+  font-weight: bold;
+}
+
+.about {
+  margin-top: 60px;
+  padding: 60px 0px;
+}
+.about .about-container .about-content .about-card-container .about-card {
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.about .about-container .about-content .about-card-container .about-card .about-card-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 50%;
+  height: calc(100% - 20px);
+  z-index: -1;
+  bottom: 0px;
+  left: 0px;
+}
+.about .about-container .about-content .about-card-container .about-card .serial-number {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #379D13;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 15px;
+  color: white;
+}
+.about .about-container .about-content .about-card-container .about-card .serial-number p {
+  font-weight: bold;
+}
+.about .about-container .about-content .about-card-container .about-card .about-card-content {
+  background: white;
+  width: calc(100% - 30px);
+  padding: 30px;
+}
+.about .about-container .about-content .about-card-container .about-card .about-card-content h2 {
+  font-size: 1.3rem;
+}
+.about .about-container .about-content .about-card-container .about-card .about-card-content p {
+  margin-top: 15px;
+}
+.about .about-container .about-content .about-image {
+  position: relative;
+}
+.about .about-container .about-content .about-image img {
+  width: 70%;
+}
+.about .about-container .about-content .about-image img.image-two {
+  position: absolute;
+  right: 0px;
+  top: 10%;
+}
+
+.stats {
+  padding: 60px 0px;
+}
+.stats .stats-container {
+  background: url("../images//stats.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 0px;
+}
+.stats .stats-container .stats-inner-content .stats-card {
+  color: white;
+}
+.stats .stats-container .stats-inner-content .stats-card h3 {
+  font-size: 1.9rem;
+}
+.stats .stats-container .stats-inner-content .stats-card p {
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+.team .team-container .subtitle {
+  margin-top: 10px;
+}
+.team .team-container .team-card-container {
+  margin-top: 40px;
+}
+.team .team-container .team-card-container .team-card {
+  background: white;
+  padding: 20px;
+  border-bottom: 2px solid #379D13;
+}
+.team .team-container .team-card-container .team-card .team-card-image {
+  width: 100px;
+}
+.team .team-container .team-card-container .team-card .team-card-image img {
+  width: 100%;
+}
+.team .team-container .team-card-container .team-card .team-card-details {
+  margin-left: 20px;
+  flex: 1;
 }/*# sourceMappingURL=home.css.map */
