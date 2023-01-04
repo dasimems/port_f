@@ -54,8 +54,16 @@ body{
 
     }
 
+    .footer{
+        background: white;
+        margin-top: 50px;
+        padding: 20px 0px;
+
+    }
+
     .main-container{
         padding-top: getMeasurement("headerHeight");
+        min-height: 100vh;
 
     }
 }

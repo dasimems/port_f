@@ -81,6 +81,12 @@ body .header .header-container .header-inner-content .header-links li a {
 body .header .header-container .header-inner-content .header-links li a.border-link {
   border: 2px solid #379D13;
 }
+body .footer {
+  background: white;
+  margin-top: 50px;
+  padding: 20px 0px;
+}
 body .main-container {
   padding-top: 80px;
+  min-height: 100vh;
 }/*# sourceMappingURL=index.css.map */
