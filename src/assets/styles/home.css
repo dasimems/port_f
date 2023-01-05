@@ -48,6 +48,23 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.half-width {
+  width: 45%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.align-end {
+  align-items: flex-end;
 }
 
 .banner {

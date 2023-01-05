@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.button {
+  padding: 7px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.half-width {
+  width: 45%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.contact {
+  padding-top: 30px;
+}
+.contact .contact-container .contact-content .contact-content-container {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 30px;
+}
+.contact .contact-container .contact-content .contact-content-container ul {
+  list-style: none;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-details-content li {
+  margin-top: 40px;
+}
+.contact .contact-container .contact-content .contact-content-container .social-links {
+  margin-top: 30px;
+}
+.contact .contact-container .contact-content .contact-content-container .social-links li a {
+  font-size: 1.4rem;
+}
+.contact .contact-container .contact-content .contact-content-container .social-links li:not(:first-child) {
+  margin-left: 30px;
+}
+.contact .contact-container .contact-content .contact-content-container h2 {
+  font-size: 1.5rem;
+}
+.contact .contact-container .contact-content .contact-content-container p {
+  margin-top: 20px;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content {
+  margin-top: 20px;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content input,
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content textarea {
+  padding: 0px 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100%;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content textarea {
+  height: 150px;
+  padding: 10px;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content input {
+  height: 50px;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content .send-btn {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 15px 25px;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-form .form-content .send-btn .icon {
+  margin-left: 5px;
+  color: #379D13;
+}/*# sourceMappingURL=contact.css.map */

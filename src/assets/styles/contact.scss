@@ -1,0 +1,114 @@
+@import "./style";
+@import "./variables";
+
+.contact{
+
+    padding-top: 30px;
+
+
+    .contact-container{
+
+        .contact-content{
+
+            .contact-content-container{
+                padding: 20px;
+                background: rgba(0, 0, 0, .2);
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                margin-bottom: 30px;
+
+
+                ul{
+                    list-style: none;
+                }
+
+                .contact-details-content{
+
+
+                    li{
+                        margin-top: 40px;
+                    }
+                }
+                
+                .social-links{
+                    margin-top: 30px;
+
+                    li{
+                         a{
+                            font-size: 1.4rem;
+                        }
+
+                        &:not(:first-child){
+                            margin-left: 30px;
+    
+                           
+                        }
+                    }
+
+                }
+
+                h2{
+                    font-size: 1.5rem;
+
+                }
+
+                p{
+                    margin-top: 20px;
+                }
+
+                .contact-form{
+                    
+                    .form-content{
+
+                        margin-top: 20px;
+                       
+
+                        input,
+                        textarea{
+                            padding: 0px 10px;
+                            outline: none;
+                            border: 1px solid rgba(0,0,0, .2);
+                            background: rgba(255, 255, 255, .5);
+                            margin-top: 10px;
+                            border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            -moz-border-radius: 10px;
+                            -ms-border-radius: 10px;
+                            -o-border-radius: 10px;
+                            width: 100%;
+                        }
+
+                        textarea{
+                            height: 150px;
+                            padding:10px;
+                        }
+
+                        input{
+                            height: 50px;
+                        }
+
+                        .send-btn{
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -ms-border-radius: 5px;
+                            -o-border-radius: 5px;
+                            outline: none;
+                            border: none;
+                            padding: 15px 25px;
+
+                            .icon{
+                                margin-left: 5px;
+                                color: getColor("primary");
+                            }
+}
+                    }
+                }
+            }
+        }
+    }
+
+}

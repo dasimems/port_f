@@ -19,6 +19,18 @@ export const routeName = {
     works: "works"
 }
 
+export const contactDetails = {
+    facebook: "",
+    instagram: "",
+    twitter: "",
+    location: "",
+    phoneNumberOne: "",
+    phoneNumberTwo: "",
+    email: "",
+    linkedIn: "",
+    whatsapp: ""
+}
+
 export const stats = [
     {
         number: 126,
