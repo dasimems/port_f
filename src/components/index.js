@@ -10,6 +10,8 @@ import Stats from "./Stats"
 import Team from "./Team"
 import TeamCard from "./TeamCard"
 import Banner from "./home/Banner"
+import Links from "./Links"
+import ModalComponent from "./ModalComponent"
 
 export {
     Header,
@@ -23,5 +25,7 @@ export {
     Stats,
     Team,
     TeamCard,
-    Banner
+    Banner,
+    Links,
+    ModalComponent
 }

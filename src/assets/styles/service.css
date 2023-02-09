@@ -43,6 +43,10 @@ html {
   justify-content: center;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
 .button {
   padding: 7px 20px;
   display: inline-flex;
@@ -61,6 +65,10 @@ html {
 
 .full-width {
   width: 100%;
+}
+
+.window-height {
+  height: 100vh;
 }
 
 .align-end {

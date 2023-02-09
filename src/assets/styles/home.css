@@ -43,6 +43,10 @@ html {
   justify-content: center;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
 .button {
   padding: 7px 20px;
   display: inline-flex;
@@ -63,6 +67,10 @@ html {
   width: 100%;
 }
 
+.window-height {
+  height: 100vh;
+}
+
 .align-end {
   align-items: flex-end;
 }
@@ -73,6 +81,84 @@ html {
   max-height: 765px;
   min-height: 675px;
   background: white;
+  position: relative;
+}
+.banner .banner-image {
+  background: url("../images/banner-image.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-clip-path: url("#clip");
+          clip-path: url("#clip");
+}
+.banner .banner-image .banner-content {
+  width: 100%;
+  height: 100%;
+  background: rgba(48, 138, 16, 0.3);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  color: white;
+}
+.banner .banner-image .banner-content .banner-main-content {
+  max-width: 91.7%;
+}
+.banner .banner-image .banner-content .banner-title {
+  max-width: 700px;
+  width: 100%;
+  font-size: clamp(1.5rem, 6vw, 4rem);
+}
+.banner .banner-image .banner-content .banner-subtitle {
+  font-size: clamp(0.9rem, 2vw, 1.5rem);
+  margin-top: 20px;
+  max-width: 900px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.banner .banner-image .banner-content .banner-cta {
+  padding: 10px 25px;
+  border-radius: 100px;
+  background: white;
+  color: #379D13;
+  font-size: 1.1rem;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.banner .banner-list {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+@media only screen and (max-width: 964px) {
+  .banner {
+    max-height: unset;
+    min-height: unset;
+    height: auto;
+  }
+  .banner .banner-image .banner-content {
+    padding: 100px 0px;
+  }
+  .banner .banner-list {
+    position: relative;
+    top: unset;
+    right: unset;
+    padding: 40px 4.17%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+  }
+  .banner .banner-list .banner-list-card {
+    margin-top: 0px;
+    width: auto;
+    min-width: 250px;
+    flex: 1;
+  }
 }
 
 .service-one .service-container .title {
@@ -155,6 +241,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .service .service-container .service-card-container .service-card .service-card-icon {
   font-size: 2rem;
@@ -264,6 +351,8 @@ html {
 }
 .stats .stats-container .stats-inner-content .stats-card {
   color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .stats .stats-container .stats-inner-content .stats-card h3 {
   font-size: 1.9rem;
@@ -283,6 +372,7 @@ html {
   background: white;
   padding: 20px;
   border-bottom: 2px solid #379D13;
+  margin-bottom: 20px;
 }
 .team .team-container .team-card-container .team-card .team-card-image {
   width: 100px;

@@ -43,6 +43,10 @@ html {
   justify-content: center;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
 .button {
   padding: 7px 20px;
   display: inline-flex;
@@ -63,8 +67,20 @@ html {
   width: 100%;
 }
 
+.window-height {
+  height: 100vh;
+}
+
 .align-end {
   align-items: flex-end;
+}
+
+.contact-parent {
+  background: url("../images/contact_banner.jpg") no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .contact {
@@ -72,7 +88,9 @@ html {
 }
 .contact .contact-container .contact-content .contact-content-container {
   padding: 20px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -83,14 +101,24 @@ html {
 .contact .contact-container .contact-content .contact-content-container ul {
   list-style: none;
 }
+.contact .contact-container .contact-content .contact-content-container .contact-details-content {
+  font-weight: 600;
+}
 .contact .contact-container .contact-content .contact-content-container .contact-details-content li {
   margin-top: 40px;
+  font-size: 1.1rem;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-details-content li span {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+.contact .contact-container .contact-content .contact-content-container .contact-details-content li .icon {
+  margin-right: 10px;
 }
 .contact .contact-container .contact-content .contact-content-container .social-links {
   margin-top: 30px;
-}
-.contact .contact-container .contact-content .contact-content-container .social-links li a {
-  font-size: 1.4rem;
 }
 .contact .contact-container .contact-content .contact-content-container .social-links li:not(:first-child) {
   margin-left: 30px;

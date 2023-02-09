@@ -9,6 +9,8 @@ import { MdPhotoLibrary} from "react-icons/md"
 import Boost from "./icons/arcticons_boost.svg"
 import Stat from "./images/stats.png"
 import ProfileImage from "./images/profile_pic.png"
+import ProfileImageOne from "./images/profile_pic_1.png"
+import ProfileImageTwo from "./images/profile_pic_2.png"
 
 export const routeName = {
     home: "",
@@ -23,10 +25,10 @@ export const contactDetails = {
     facebook: "",
     instagram: "",
     twitter: "",
-    location: "",
-    phoneNumberOne: "",
-    phoneNumberTwo: "",
-    email: "",
+    location: "455 West Orchard Street Kings Mountain, NC 28086",
+    phoneNumberOne: "(272) 211-7370",
+    phoneNumberTwo: "(524) 386-5730",
+    email: "support@yourbrand.com",
     linkedIn: "",
     whatsapp: ""
 }
@@ -38,38 +40,38 @@ export const stats = [
     },
 
     {
-        number: 126,
-        description: "Mobile app completed"
+        number: 98,
+        description: "Happy Customers"
     },
 
     {
-        number: 126,
-        description: "Mobile app completed"
+        number: 176,
+        description: "App version"
     },
 
     {
-        number: 126,
-        description: "Mobile app completed"
+        number: 16,
+        description: "Award Win"
     }
 ]
 
 export const team = [
     {
-        name: "Duyil Ayomid",
-        skills: "Web Developer",
+        name: "Fletch Skinner",
+        skills: "Product Strategist",
+        image: ProfileImageTwo
+    },
+
+    {
+        name: "Lance Bogrol",
+        skills: "Visual Designer",
         image: ProfileImage
     },
 
     {
-        name: "Duyil Ayomid",
-        skills: "Web Developer",
-        image: ProfileImage
-    },
-
-    {
-        name: "Duyil Ayomid",
-        skills: "Web Developer",
-        image: ProfileImage
+        name: "Valentino Morose",
+        skills: "App Developer",
+        image: ProfileImageOne
     }
 ]
 
@@ -102,17 +104,17 @@ export const about = [
     },
 
      {
-        title: "Design and UX that ensures your app will be loved and used",
+        title: "Enterprise-grade development secures reliability and quality",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
      {
-        title: "Design and UX that ensures your app will be loved and used",
+        title: "A proven and tested process guarantees your success",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 
      {
-        title: "Design and UX that ensures your app will be loved and used",
+        title: "Start-to-end app development agency",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
 ]
@@ -226,5 +228,22 @@ export const services = [
         icon: <MdPhotoLibrary />,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         background: false
+    }
+]
+
+export const bannerList = [
+    {
+        title: "App Development",
+        icon: <AiFillAndroid />
+    },
+
+    {
+        title: "Web Development",
+        icon: <TbWorld />
+    },
+
+    {
+        title: "UI/UX Design",
+        icon: <BsUiRadios />
     }
 ]
