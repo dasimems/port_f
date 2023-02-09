@@ -8,7 +8,7 @@ const StrategyCard = ({ data, ...props }) => {
       {...props}
       span={5}
       lg={{ span: 5 }}
-      md={{ span: 7 }}
+      md={{ span: 5 }}
       sm={{ span: 11 }}
       xs={{ span: 24 }}
       className={background? "service-card background-card" : "service-card"}

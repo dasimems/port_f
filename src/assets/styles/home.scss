@@ -139,12 +139,12 @@
                 }
 
                 .service-card-title{
-                    font-size: 1.3rem;
+                    font-size: clamp(0.9rem, 2vw, 1.3rem);
                     margin-top: 10px;
                 }
 
                 .service-card-description{
-                    font-size: 0.9rem;
+                    font-size: clamp(0.7rem, 1vw, 0.9rem);
                     margin-top: 10px;
                 }
             }
