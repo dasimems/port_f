@@ -161,6 +161,9 @@ html {
   }
 }
 
+.service-one {
+  width: 100%;
+}
 .service-one .service-container .title {
   margin-top: 40px;
 }

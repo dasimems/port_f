@@ -2,7 +2,7 @@
 @import "./variables";
 
 body{
-    width: 100%;
+    width: 100vw;
     background: getColor("background");
     overflow-x: hidden;
 
@@ -251,6 +251,8 @@ body{
     .main-container{
         padding-top: getMeasurement("headerHeight");
         min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
 
     }
 }
