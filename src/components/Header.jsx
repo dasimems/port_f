@@ -1,7 +1,7 @@
 import { Button, Row } from 'antd'
 import { Col } from 'antd/es/grid'
-import React, { useState } from 'react'
-import {Link} from "react-router-dom"
+import React, { useEffect, useState } from 'react'
+import {Link, useNavigate} from "react-router-dom"
 import { images, routeName } from '../assets/data'
 import Links from './Links'
 import { FaBars } from 'react-icons/fa'
@@ -11,6 +11,12 @@ import { MdClose } from 'react-icons/md'
 const Header = () => {
     const [mobileLinkActive, setMobileLinkActive] = useState(false)
     const [mobileLinkShown, setMobileLinkShown] = useState(false)
+    const navigate = useNavigate();
+
+    useEffect(()=>{
+        setMobileLinkActive(false)
+        setMobileLinkShown(false)
+    }, [navigate])
   return (
 
     <>
