@@ -15,7 +15,7 @@ const Service = () => {
 
                     {services.map((service, index)=>{
                         return(
-                            <ServiceCard data={service} key={index} />
+                            <ServiceCard data-aos="flip-left" data={service} key={index} />
                         )
                     })}
 

@@ -4,6 +4,7 @@
 body{
     width: 100%;
     background: getColor("background");
+    overflow-x: hidden;
 
     .header{
         width: 100%;

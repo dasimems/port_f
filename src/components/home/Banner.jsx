@@ -16,10 +16,10 @@ const Banner = () => {
             <Row>
 
               <Col push={1} className='banner-main-content'>
-                <h1 className='banner-title'>We Build Apps That Get Trending On AppStore.</h1>
-                <p className='banner-subtitle'>We design and develop mobile apps that delight your users and grow your business. Enterprise-grade development combined with outstanding design.</p>
+                <h1 className='banner-title' data-aos="slide-right">We Build Apps That Get Trending On AppStore.</h1>
+                <p className='banner-subtitle' data-aos="slide-left">We design and develop mobile apps that delight your users and grow your business. Enterprise-grade development combined with outstanding design.</p>
 
-                <Link className='button banner-cta' to={routeName.works}>
+                <Link className='button banner-cta' data-aos="fade-up" to={routeName.works}>
                   All works
                 </Link>
 
@@ -33,9 +33,9 @@ const Banner = () => {
         </div>
         
 
-        <div className='banner-list'>
+        <div className='banner-list' data-aos="slide-left">
 
-            {bannerList.map((list, index) => (<ListCard {...list} key={index} />))}
+            {bannerList.map((list, index) => (<ListCard data-aos="fade-up" {...list} key={index} />))}
 
         </div>
     </Row>

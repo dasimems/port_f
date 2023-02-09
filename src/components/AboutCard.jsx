@@ -1,9 +1,9 @@
 import React from 'react'
 
-const AboutCard = ({data, serial}) => {
+const AboutCard = ({data, serial, ...props}) => {
     var {title, description} = data;
   return (
-    <div className="about-card flex-container column align-end">
+    <div className="about-card flex-container column align-end" {...props}>
 
         <div className='serial-number flex-container align-center justify-center'>
 

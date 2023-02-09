@@ -19,7 +19,7 @@ const About = () => {
               className="about-card-container"
             >
               {about.map((ab, index) => {
-                return <AboutCard serial={index + 1} data={ab} key={index} />
+                return <AboutCard data-aos="slide-right" serial={index + 1} data={ab} key={index} />
               })}
             </Col>
             <Col
@@ -28,6 +28,7 @@ const About = () => {
               md={{ span: 11 }}
               xs={{ span: 24 }}
               className="about-image"
+              data-aos="zoom-in"
             >
               <img
                 className="image image-one"

@@ -16,6 +16,10 @@ const Header = () => {
     useEffect(()=>{
         setMobileLinkActive(false)
         setMobileLinkShown(false)
+        window.scrollTo({
+            top: 0,
+            left: 0
+        })
     }, [navigate])
   return (
 

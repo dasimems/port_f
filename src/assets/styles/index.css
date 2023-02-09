@@ -78,6 +78,7 @@ html {
 body {
   width: 100%;
   background: #E4EEE1;
+  overflow-x: hidden;
 }
 body .header {
   width: 100%;

@@ -14,7 +14,7 @@ const Strategy = () => {
                 <Row justify="space-between" className='service-card-container'>
                     {reasons.map((service, index)=>{
                         return(
-                            <StrategyCard data={service} key={index} />
+                            <StrategyCard data-aos="fade-up" data={service} key={index} />
                         )
                     })}
 

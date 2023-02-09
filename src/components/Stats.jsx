@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row, Col} from "antd"
 import { stats } from '../assets/data'
+import CountUp from 'react-countup'
 
 const Stats = () => {
   return (
@@ -19,7 +20,17 @@ const Stats = () => {
 
                         return(<Col span={5} lg={{span: 5}}  md={{span: 5}} sm={{span: 11}} xs={{span: 24}} className="stats-card flex-container align-center justify-center column">
 
-                            <h3>{number}</h3>
+                            <h3>
+                                {isFinite(number)? <CountUp
+                                    end={number}
+                                    start={0}
+                                    duration="3"
+                                    enableScrollSpy
+                                    scrollSpyOnce={false}
+                                />:
+                                number}
+                                
+                            </h3>
                             <p>{description}</p>
 
                         </Col>)

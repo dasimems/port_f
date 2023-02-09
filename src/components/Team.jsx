@@ -15,7 +15,7 @@ const Team = () => {
 
                 {team.map((tea, index)=>{
                     return(
-                        <TeamCard data={tea} key={index} />
+                        <TeamCard data-aos="flip-down" data={tea} key={index} />
                     )
                 })}
 
