@@ -18,7 +18,7 @@ const Stats = () => {
 
                         var {number, description} = stat
 
-                        return(<Col span={5} lg={{span: 5}}  md={{span: 5}} sm={{span: 11}} xs={{span: 24}} className="stats-card flex-container align-center justify-center column">
+                        return(<Col span={5} lg={{span: 5}}  md={{span: 5}} sm={{span: 11}} xs={{span: 24}} className="stats-card flex-container align-center justify-center column" key={index}>
 
                             <h3>
                                 {isFinite(number)? <CountUp

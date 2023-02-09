@@ -1,9 +1,11 @@
 import React, { useEffect } from "react"
 import { Footer, Header } from "./components";
-import {Outlet} from "react-router-dom"
+import {Link, Outlet} from "react-router-dom"
 import "./assets/styles/home.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { MdMessage } from "react-icons/md";
+import { routeName } from "./assets/data";
 
 function App() {
 
@@ -24,6 +26,10 @@ function App() {
           <Outlet />
           
         </div>
+
+        <Link to={routeName.contact} className="fixed-contact-button">
+          <MdMessage />
+        </Link>
     
 
       <Footer />

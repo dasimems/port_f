@@ -5,7 +5,6 @@ import ListCard from './ListCard'
 import { Link } from 'react-router-dom'
 
 const Banner = () => {
-  console.log(window.innerWidth, window.innerHeight)
   return (
     <Row justify="center" className="banner">
 
