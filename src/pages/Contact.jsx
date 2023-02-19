@@ -65,7 +65,7 @@ const Contact = () => {
 
                                 <li className="flex-container  align-center">
                                     <span className="icon"><FaEnvelope /> </span>
-                                    <span className="text">{contactDetails.phoneNumberOne}</span>
+                                    <span className="text">{contactDetails.email}</span>
                                 </li>
                             </ul>
 
@@ -73,7 +73,7 @@ const Contact = () => {
 
                                 <li><a href={contactDetails.linkedIn} target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
 
-                                <li><a href={contactDetails.twitter} target="_blank" rel="noreferrer"><FaTwitterSquare /></a></li>
+                                {/* <li><a href={contactDetails.twitter} target="_blank" rel="noreferrer"><FaTwitterSquare /></a></li> */}
 
                                 <li><a href={contactDetails.facebook} target="_blank" rel="noreferrer"><FaFacebookSquare /></a></li>
 

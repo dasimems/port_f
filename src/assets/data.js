@@ -22,15 +22,15 @@ export const routeName = {
 }
 
 export const contactDetails = {
-    facebook: "",
+    facebook: "https://www.facebook.com/profile.php?id=100089756395988&mibextid=ZbWKwL",
     instagram: "",
     twitter: "",
     location: "455 West Orchard Street Kings Mountain, NC 28086",
-    phoneNumberOne: "(272) 211-7370",
-    phoneNumberTwo: "(524) 386-5730",
+    phoneNumberOne: "+2348163801660",
+    phoneNumberTwo: "+2348163801660",
     email: "support@yourbrand.com",
-    linkedIn: "",
-    whatsapp: ""
+    linkedIn: "https://www.linkedin.com/in/samuel-adeyinka-%F0%9F%92%8E-expert-ui-ux-designer-038580238",
+    whatsapp: "https://wa.link/mrlem9"
 }
 
 export const stats = [

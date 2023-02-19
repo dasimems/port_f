@@ -14,14 +14,14 @@ const Footer = () => {
 
                       <li><a href={contactDetails.linkedIn} target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
 
-                      <li><a href={contactDetails.twitter} target="_blank" rel="noreferrer"><FaTwitterSquare /></a></li>
+                      {/* <li><a href={contactDetails.twitter} target="_blank" rel="noreferrer"><FaTwitterSquare /></a></li> */}
 
                       <li><a href={contactDetails.facebook} target="_blank" rel="noreferrer"><FaFacebookSquare /></a></li>
 
                       <li><a href={contactDetails.whatsapp} target="_blank" rel="noreferrer"><FaWhatsappSquare /></a></li>
                     </ul>
 
-                    <p className="copyright">Developed By Dasimems &copy; YouStudio 2022</p>
+                    <p className="copyright"> YouStudio &copy; 2022</p>
                 </Row>
             </Col>
 
